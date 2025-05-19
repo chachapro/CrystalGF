@@ -1,0 +1,11 @@
+_target_: crystalgfh.pl_modules.ConditionModel.ConditioningModule
+n_features: 256
+n_layers: 2
+condition_embeddings:
+  - _target_: crystalgfh.pl_modules.ConditionModel.ScalarConditionEmbedding
+    condition_name: dft_band_gap #bandgap ind_gap dft_band_gap
+    condition_min: -1.0
+    condition_max: 9.0
+    grid_spacing: 0.5
+    n_features: 64
+    n_layers: 3
