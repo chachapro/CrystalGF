@@ -6,7 +6,13 @@ A Generation Framework with Strict Constraints for Crystal Materials Design
 
 ### CrystalgfH
 
+
 #### Dependencies and Setup
+
+Building a python environment using conda and run the following command to install the environment:
+```
+conda env create -f environment.yml
+```
 
 Specify the following variables in the `.env` file.
 
