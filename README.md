@@ -2,7 +2,7 @@
 A Generation Framework with Strict Constraints for Crystal Materials Design
 
 ### CrystalgfG
- `python diffcsp/run.py data=<dataset> expname=<expname> `
+555 `python diffcsp/run.py data=<dataset> expname=<expname> `666
 
 ### CrystalgfH
 For environment
