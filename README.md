@@ -2,16 +2,17 @@
 A Generation Framework with Strict Constraints for Crystal Materials Design
 
 ### CrystalgfG
-555 `python diffcsp/run.py data=<dataset> expname=<expname> `666
 
-```
-  python diffcsp/run.py data=<dataset> expname=<expname>
-```
 
 ### CrystalgfH
-#### For environment
 
-555 `python diffcsp/run.py data=<dataset> expname=<expname> `666
+#### Dependencies and Setup
+
+Specify the following variables in the `.env` file.
+
 ```
-  python diffcsp/run.py data=<dataset> expname=<expname>
+PROJECT_ROOT: the absolute path of this repo
+HYDRA_JOBS: the absolute path to save hydra outputs
+WABDB_DIR: the absolute path to save wabdb outputs
 ```
+
