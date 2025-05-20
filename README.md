@@ -77,6 +77,12 @@ Json file can be
 ]
 ```
 
+Generate structure to prepare for subsequent VASP calculations
+```
+nohup python scripts/sample_format_vasp.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
+nohup python scripts/sample_gap_vasp.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
+```
+
 
 #### Training
 
