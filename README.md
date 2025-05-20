@@ -11,7 +11,7 @@ A Generation Framework with Strict Constraints for Crystal Materials Design
 Specify the following variables in the `.env` file.
 
 ```
-PROJECT_ROOT: the absolute path of this repo
+PROJECT_ROOT: the absolute path of CrystalgfH
 HYDRA_JOBS: the absolute path to save hydra outputs
 WABDB_DIR: the absolute path to save wabdb outputs
 ```
