@@ -24,8 +24,7 @@ HYDRA_JOBS: the absolute path to save hydra outputs
 WABDB_DIR: the absolute path to save wabdb outputs
 ```
 #### Evaluation
-
-
+Calculate the matching rate (MR) and root mean square error (RMSE) while generating the structures.
 
 #### Training
 For the gap-based task
