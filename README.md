@@ -33,8 +33,51 @@ Calculate the matching rate (MR) and root mean square error (RMSE) while generat
 nohup python scripts/sample_format.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
 nohup python scripts/sample_gap.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
 ```
+
 Json file can be
-``
+
+`example/r1_full_gap_2diff.json`:
+
+```
+[
+      {
+            "formula": "Sc2Ni6",
+            "n_atom": 8,
+            "gap": 0.0,
+            "spacegroup_number": 194,
+            "atom_types": [
+                  "Sc",
+                  "Ni"
+            ],
+            "wyckoff_letters": [
+                  "2d",
+                  "6h"
+            ]
+      },
+      {
+            "formula": "Ba1Nd1Co2O5",
+            "n_atom": 9,
+            "gap": 0.0,
+            "spacegroup_number": 123,
+            "atom_types": [
+                  "Ba",
+                  "Nd",
+                  "Co",
+                  "O",
+                  "O"
+            ],
+            "wyckoff_letters": [
+                  "1d",
+                  "1c",
+                  "2g",
+                  "4i",
+                  "1b"
+            ]
+      }
+]
+```
+
+
 #### Training
 
 For the gap-based task
