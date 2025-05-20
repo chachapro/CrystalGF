@@ -23,4 +23,18 @@ PROJECT_ROOT: the absolute path of CrystalgfH
 HYDRA_JOBS: the absolute path to save hydra outputs
 WABDB_DIR: the absolute path to save wabdb outputs
 ```
+#### Evaluation
+
+#### Training
+For the gap-based task
+```
+nohup python diffcsp/run_gap.py data=<dataset>  expname=<expname> > ./<logname>.log
+```
+For the formation-based task
+```
+nohup python diffcsp/run_format.py data=<dataset> expname=<expname> > ./<logname>.log
+```
+
+
+
 
