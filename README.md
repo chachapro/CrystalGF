@@ -31,7 +31,10 @@ Calculate the matching rate (MR) and root mean square error (RMSE) while generat
 
 ```
 nohup python scripts/sample_format.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
+nohup python scripts/sample_gap.py --model_path <model_path> --save_path <save_path> --json_file <json_file> > ./<log_name>.log
 ```
+Json file can be
+``
 #### Training
 
 For the gap-based task
