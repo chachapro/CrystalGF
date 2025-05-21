@@ -32,6 +32,17 @@ llamafactory-cli env
 
 ### Fine-tuning
 
+Place the dataset in the `data/` directory and modify the `data_info.json` file:
+
+```
+  "spg_full_gap_train": {
+    "file_name": "spg_full_gap_train.json"
+  },
+  "spg_full_gap_test": {
+    "file_name": "spg_full_gap_test.json"
+  },
+```
+
 Replace the YAML file in `lora_yaml` and `example/inference/`
 
 ```
