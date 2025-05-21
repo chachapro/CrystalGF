@@ -1,6 +1,8 @@
 # CrystalGF
 A Generation Framework with Strict Constraints for Crystal Materials Design
 
+![CrystalGF](https://github.com/chachapro/CrystalGF/asset/CrystalGF.png)
+
 ## CrystalgfG
 
 CrystalgfG use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine tune the constraint generator.
