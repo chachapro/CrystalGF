@@ -19,6 +19,13 @@ Building a python environment using conda and run the following command to insta
 conda create -n llamafactory python=3.10
 conda activate llamafactory
 pip install -e ".[torch,metrics]"
+pip install -e ".[deepspeed,modelscope]"
+```
+
+Verify that the installation is successful
+
+```
+llamafactory-cli env
 ```
 
 ### CrystalgfH
