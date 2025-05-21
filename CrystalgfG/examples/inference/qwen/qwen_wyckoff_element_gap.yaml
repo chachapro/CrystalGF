@@ -1,0 +1,16 @@
+adapter_name_or_path: ./LLaMA-Factory/saves/qwen/mp_20_wyckoff_element_gap/checkpoint-4500
+cutoff_len: 1024
+ddp_timeout: 180000000
+do_predict: true
+eval_dataset: mp_20_wyckoff_element_gap_test
+finetuning_type: lora
+max_samples: 1000000
+model_name_or_path: ./model/Qwen/Qwen2.5-7B-Instruct
+output_dir: ./LLaMA-Factory/results/qwen/mp_20_wyckoff_element_gap
+overwrite_cache: true
+overwrite_output_dir: true
+per_device_eval_batch_size: 8
+predict_with_generate: true
+preprocessing_num_workers: 16
+stage: sft
+template: qwen
