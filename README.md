@@ -33,9 +33,16 @@ llamafactory-cli env
 Replace the YAML file in `lora_yaml` and `example/inference/`
 
 ```
-
+nohup torchrun --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr 127.0.0.1 --master_port 7001 src/train.py lora_yaml/<yaml_name>.yaml  > <log_name>.log
 ```
 
+Data and pre-trained lora weights are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
+
+#### inference
+
+```
+nohup llamafactory-cli train examples/inference/<yaml_name>.yaml > <log_name>.log
+```
 
 ### CrystalgfH
 
@@ -69,7 +76,7 @@ For the formation-based task
 ```
 nohup python diffcsp/run_format.py data=<dataset> expname=<expname> > ./<logname>.log
 ```
-Pre-trained checkpoints are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
+Data and pre-trained checkpoints are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
 
 #### Evaluation
 
