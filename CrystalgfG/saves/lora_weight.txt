@@ -1,0 +1,1 @@
+lora weight at https://www.modelscope.cn/models/chachapro/CrystalGF/files
