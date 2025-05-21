@@ -78,7 +78,7 @@ nohup python scripts/sample_gap.py --model_path <model_path> --save_path <save_p
 
 Json file can be
 
-`example/r1_full_gap_2diff.json`:
+`example/example.json`:
 
 ```
 [
