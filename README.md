@@ -1,7 +1,7 @@
 # CrystalGF
 A Generation Framework with Strict Constraints for Crystal Materials Design
 
-![CrystalGF](https://github.com/chachapro/CrystalGF/assets/CrystalGF.png)
+![CrystalGF](https://github.com/chachapro/CrystalGF/blob/main/assets/CrystalGF.png))
 
 ## CrystalgfG
 
