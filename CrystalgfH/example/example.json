@@ -1,0 +1,36 @@
+[
+      {
+            "formula": "Sc2Ni6",
+            "n_atom": 8,
+            "gap": 0.0,
+            "spacegroup_number": 194,
+            "atom_types": [
+                  "Sc",
+                  "Ni"
+            ],
+            "wyckoff_letters": [
+                  "2d",
+                  "6h"
+            ]
+      },
+      {
+            "formula": "Ba1Nd1Co2O5",
+            "n_atom": 9,
+            "gap": 0.0,
+            "spacegroup_number": 123,
+            "atom_types": [
+                  "Ba",
+                  "Nd",
+                  "Co",
+                  "O",
+                  "O"
+            ],
+            "wyckoff_letters": [
+                  "1d",
+                  "1c",
+                  "2g",
+                  "4i",
+                  "1b"
+            ]
+      }
+]
