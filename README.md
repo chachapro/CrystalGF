@@ -30,7 +30,11 @@ llamafactory-cli env
 
 #### Fine-tuning
 
+Replace the YAML file in `lora_yaml` and `example/inference/`
 
+```
+
+```
 
 
 ### CrystalgfH
