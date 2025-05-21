@@ -38,7 +38,7 @@ nohup torchrun --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr 127.0.0
 
 Data and pre-trained lora weights are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
 
-### inference
+### Inference
 
 ```
 nohup llamafactory-cli train examples/inference/<yaml_name>.yaml > <log_name>.log
