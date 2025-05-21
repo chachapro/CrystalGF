@@ -1,11 +1,11 @@
 # CrystalGF
 A Generation Framework with Strict Constraints for Crystal Materials Design
 
-### CrystalgfG
+## CrystalgfG
 
 CrystalgfG use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine tune the constraint generator.
 
-#### Dependencies and Setup
+### Dependencies and Setup
 
 Install LLaMA-Factory project.
 
@@ -28,7 +28,7 @@ Verify that the installation is successful
 llamafactory-cli env
 ```
 
-#### Fine-tuning
+### Fine-tuning
 
 Replace the YAML file in `lora_yaml` and `example/inference/`
 
@@ -38,13 +38,13 @@ nohup torchrun --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr 127.0.0
 
 Data and pre-trained lora weights are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
 
-#### inference
+### inference
 
 ```
 nohup llamafactory-cli train examples/inference/<yaml_name>.yaml > <log_name>.log
 ```
 
-### CrystalgfH
+## CrystalgfH
 
 CrystalgfH is improved on the basis of [DiffCSP++](https://github.com/jiaor17/DiffCSP-PP), and implements the generation of crystal structures with elemental compositon, symmetry information and target material property.
 
