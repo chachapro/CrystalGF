@@ -3,6 +3,23 @@ A Generation Framework with Strict Constraints for Crystal Materials Design
 
 ### CrystalgfG
 
+CrystalgfG use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine tune the constraint generator.
+
+#### Dependencies and Setup
+
+Install LLaMA-Factory project.
+
+```
+git clone https://github.com/hiyouga/LLaMA-Factory.git
+```
+
+Building a python environment using conda and run the following command to install the environment:
+
+```
+conda create -n llamafactory python=3.10
+conda activate llamafactory
+pip install -e ".[torch,metrics]"
+```
 
 ### CrystalgfH
 
