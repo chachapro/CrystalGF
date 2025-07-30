@@ -67,6 +67,8 @@ CrystalgfH is improved on the basis of [DiffCSP++](https://github.com/jiaor17/Di
 Building a python environment using conda and run the following command to install the environment:
 
 ```
+conda create -n crystalgf python=3.10
+conda activate crystalgf
 conda env create -f environment.yml
 ```
 
