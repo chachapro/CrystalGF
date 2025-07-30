@@ -71,6 +71,10 @@ conda create -n crystalgf python=3.10
 conda activate crystalgf
 pip install -r requirements.txt
 ```
+if failed, add
+```
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 Specify the following variables in the `.env` file.
 
