@@ -69,7 +69,7 @@ Building a python environment using conda and run the following command to insta
 ```
 conda create -n crystalgf python=3.10
 conda activate crystalgf
-conda env create -f environment.yml
+pip install -r requirements.txt
 ```
 
 Specify the following variables in the `.env` file.
