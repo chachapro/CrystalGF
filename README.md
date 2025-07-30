@@ -84,12 +84,12 @@ WABDB_DIR: the absolute path to save wabdb outputs
 
 For the gap-based task
 ```
-nohup python diffcsp/run_gap.py data=<dataset>  expname=<expname> > ./<logname>.log
+nohup python crystalgfh/run_gap.py data=<dataset>  expname=<expname> > ./<logname>.log
 ```
 
 For the formation-based task
 ```
-nohup python diffcsp/run_format.py data=<dataset> expname=<expname> > ./<logname>.log
+nohup python crystalgfh/run_format.py data=<dataset> expname=<expname> > ./<logname>.log
 ```
 Data and pre-trained checkpoints are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
 
