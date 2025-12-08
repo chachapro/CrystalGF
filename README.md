@@ -91,7 +91,6 @@ For the formation-based task
 ```
 nohup python crystalgfh/run_format.py data=<dataset> expname=<expname> > ./<logname>.log
 ```
-Data and pre-trained checkpoints are provided [here](https://www.modelscope.cn/models/chachapro/CrystalGF).
 
 ### Evaluation
 
